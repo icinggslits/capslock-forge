@@ -1,0 +1,50 @@
+
+language: auto
+
+capslock_shortcut: |
+    [
+        {
+            "key": "BackQuote",
+            "feature": "multifunctional"
+        },
+        {
+            "key": "UpArrow",
+            "feature": "input",
+            "action": ["UpArrow", "UpArrow", "UpArrow", "UpArrow", "UpArrow"]
+        },
+        {
+            "key": "DownArrow",
+            "feature": "input",
+            "action": ["DownArrow", "DownArrow", "DownArrow", "DownArrow", "DownArrow"]
+        },
+        {
+            "key": "LeftArrow",
+            "feature": "input",
+            "action": ["LeftArrow", "LeftArrow", "LeftArrow", "LeftArrow", "LeftArrow"]
+        },
+        {
+            "key": "RightArrow",
+            "feature": "input",
+            "action": ["RightArrow", "RightArrow", "RightArrow", "RightArrow", "RightArrow"]
+        },
+        {
+            "key": "Alt + LeftArrow",
+            "feature": "input",
+            "action": "Home"
+        },
+        {
+            "key": "Alt + RightArrow",
+            "feature": "input",
+            "action": "End"
+        },
+        {
+            "key": "Quote",
+            "feature": "input_text",
+            "text": ["「", "」"]
+        },
+        {
+            "key": "Meta + C",
+            "feature": "input_text",
+            "text": "Ciallo～(∠・ω< )⌒☆"
+        }
+    ]

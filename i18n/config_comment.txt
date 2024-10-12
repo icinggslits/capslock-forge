@@ -1,0 +1,58 @@
+[Chinese]
+Capslock Forge
+
+修改配置后，在系统托盘菜单里重新加载配置。
+
+配置格式有误时，Capslock Forge停用全部功能，图标并以红点提示。
+
+删除、移动本文件，重新加载后默认配置文件会重新出现。
+
+`language`: 语言。
+    可用的语言有：
+    `zh`: 中文
+    `en`: 英语
+    `ja`: 日语
+
+`capslock_shortcut`: 大小写锁定键`Capslock`相关快捷键设置。
+    `key`: 快捷键。例如`Quote`，表示按下`Capslock + Quote`，符号按键可以用符号代替，例如用`'`代替`Quote`。
+
+    `feature`: 功能。
+        可用功能如下:
+
+        `input`: 模拟键盘输入。
+            `action`: 必选字段，表示模拟的键盘输入，单按键可以直接书写，多按键可用数组书写。
+            `delay`: 可选字段，表示键盘输入之间的延迟，单位毫秒。
+
+        `input_text`: 模拟输入文本。
+            `text`: 必选字段，表示输入的文本。可以用数组表示多文本输入，触发时按顺序循环输入文本。
+
+        `multifunctional`: 多功能按键。选中文本时使用该功能，会根据选中文本替换成匹配文本。全部匹配见同目录下的`replace_text.ini`。
+[English]
+Capslock Forge
+
+After modifying the configuration, reload it from the system tray menu.
+
+When there is an error in the configuration format, Capslock Forge will disable all feature.
+
+If this file is deleted or moved, the default configuration file will reappear after reloading.
+
+`language`: Language.
+    Available languages are:
+    `zh`: Chinese
+    `en`: English
+    `ja`: Japanese
+
+`capslock_shortcut`: Settings for shortcuts related to the Capslock key.
+    `key`: Shortcut key. For example, `Quote` means pressing `Capslock + Quote`. Symbol keys can be replaced by their symbols, such as using `'` to replace `Quote`.
+
+    `feature`: Function.
+    The available feature are as follows:
+
+        `input`: Simulates keyboard input.
+            `action`: Required field, representing the simulated keyboard input. A single key can be written directly, while multiple keys can be written as an array.
+            `delay`: Optional field, indicating the delay between keystrokes in milliseconds.
+            
+        `input_text`: Simulates text input.
+            `text`: Required field, representing the input text. An array can be used to represent multiple texts, which will be input sequentially upon trigger.
+
+        `multifunctional`: Multifunctional key. When this function is used with selected text, it will replace the selected text with matching content. All matches are found in the replace_text.ini file located in the same directory.
