@@ -1,5 +1,7 @@
 # Capslock-Forge
 
+[中文](https://github.com/icinggslits/capslock-forge/blob/main/README.zh-CN.md) | English
+
 Use the Caps Lock key as a modifier key, with its behavior fully configurable by the user.
 
 For a highly polished similar product, see [capslock-plus](https://github.com/wo52616111/capslock-plus) .

@@ -1,5 +1,7 @@
 # Capslock Forge
 
+中文 | [English](https://github.com/icinggslits/capslock-forge/blob/main/README.md)
+
 将大小写锁定键`Capslock`作为修饰键使用，并完全由用户配置行为。
 
 高完成度的同类产品，见 [capslock-plus](https://github.com/wo52616111/capslock-plus) 。
